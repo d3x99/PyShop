@@ -1,0 +1,16 @@
+pip install django(u can add version like django==3.1) //installing django
+django-admin startproject pyshop . /starting project, pyshop - name of project . - current project
+python manage.py runserver //
+python manage.py startapp products //adding new app that represent a block
+
+in google, db brower for sqlite // database for django
+python manage.py makemigrations // in settings you need to add path for apps before
+python manage.py migrate //migrate all files in migrations
+python manage.py createsuperuser
+
+
+
+
+
+
+
